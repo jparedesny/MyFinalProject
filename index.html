@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="moccapop.css">
+    <title>MOCCA POP</title>
+</head>
+
+<body>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="moccapop2.html">About Us</a></li>
+        <li><a href="moccapop3.html">Our Products</a></li>
+        <li><a href="moccapop4.html">Contact Us</a></li>
+    </ul>
+
+    
+
+    <div class="gridpicshome"><img src="homemix.jpg" width="200" height="200">
+        <img src="logo.jpg" width="200" height="200">
+        <img src="homemixs.jpg" width="200" height="200">
+    </div>
+
+ 
+    <div class="tooltip"><p>Mocca Pop ~ Eat life in small bites ||| Enter your email to receive special promotions:
+        <span class="tooltiptext">~Dessert is always a good idea~</span>
+    
+        <input id="numb">
+
+        <button type="button" onclick="myFunction()">Submit</button>
+
+        <div id="demo">
+            
+
+       <script>
+        function myFunction() {
+        let x = document.getElementById("numb").value;
+        let text;
+        if (isNaN(x) || x < 1 || x > 10) {
+        text = "Email Sent";
+        } else {
+        text = "Email Sent";
+        }
+        document.getElementById("demo").innerHTML = text;
+        }
+        </script>
+    </div>
+    
+    
+    
+
+</body>
+
+</html>
